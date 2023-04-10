@@ -7,7 +7,7 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:white;
+  background: linear-gradient(to left, #fefcea, #f1da36);
   color: #212121;
   line-height: 1.5;
 }
@@ -20,15 +20,14 @@ body {
 }
 
 .input-style{
-  border-color: yellow;
-  color: blue;
-  
+  border-color: orange;
+ 
 }
+
 
 input:hover,
 input:focus {
-  background-color: azure;
-  border-color: blue;
+border-color: green;
   
 }
 
